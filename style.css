@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(90deg, #85F6B8 0%, rgba(142, 217, 235, 0.85) 99.84%);
+    background-blend-mode: darken;
+}
+.questions_box,.success,.chess{
+    display: none;
+}
+.start_modal,.questions_box,
+.box_display,.success,.chess{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width:400px;
+    min-width:300px;
+    transform:translate(-50%,-50%);
+    background-color: #ffff;
+    transition: all 0.5s ease;
+}
+.start_modal h1{
+    padding: 15px;
+    text-align: center;
+}
+.start_modal p{
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+.start_modal label{
+    padding: 15px;
+    font-size: 16px;
+}
+.start_modal input{
+    padding: 5px;
+    margin: 15px;
+    width: 350px;
+}
+.btn_wrapper{
+    text-align: center;
+}
+.start_btn{
+    background-color: #3aad6e;
+    color: #ffff;
+    font-size: 16px;
+    padding:10px;
+    margin: 25px;
+}
+.questions_box p{
+  margin:15px;
+  padding: 5px;
+}
+.questions_box .option{
+    width: 300px;
+    border: 1px solid #e9E9E9;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+} 
+.btns{
+    text-align: center;
+    margin: 15px;
+}
+.btns .quit{
+    color: aliceblue;
+    background-color: #EC880C;
+    padding: 10px 50px 10px 50px;
+    font-size: 16px;
+    margin: 10px;
+}
+.btns .continu{
+    background: rgba(2, 138, 61, 0.42);
+    cursor: pointer;
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+}
+.timer{
+    float: right;
+    padding: 5px;
+}
+.success,.chess{
+    padding: 25px;
+    text-align: center;
+}
+.home1,.home2{
+    background-color:#0880D6;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    margin: 15px;
+}
+.progress-bar{
+    width: 100%;
+    background: green;
+    height: 4px;
+    border-radius: 5px;
+}
